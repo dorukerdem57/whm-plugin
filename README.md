@@ -86,7 +86,8 @@ This plugin gives you full control over **100% of the theme’s features** and l
 └─ jobs.php           # Job status & logs
 /public
 ├─ styles.css
-└─ app.js
+├─ app.js
+└─ icon.svg
 /data
 └─ whmwp.sqlite       # SQLite DB (sites, groups, jobs, vault)
 /logs
@@ -107,7 +108,7 @@ category=thirdparty
 group=WordPress Tools
 displayname=WHM WP Manager
 entry=/cgi/whm-wp-manager/index.php
-icon=/cgi/whm-wp-manager/public/icon.png
+icon=/cgi/whm-wp-manager/public/icon.svg
 ```
 
 Enable + restart:
